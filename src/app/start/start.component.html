@@ -1,0 +1,26 @@
+<h2>{{player1}} = x </h2>
+<h2>{{player2}} = y </h2>
+<h1 class="cover">{{player1}}  Points : {{x}}</h1>
+<h1 class="cover">{{player2}}  Points : {{o}}</h1>
+<div class="main">
+    
+    <h1>{{turn}} : Turn</h1>
+    <div class="row border-r">
+        <button class="col border-c" (click)="submit1()" [disabled]="n1">{{v1}}</button>
+        <button class="col border-c" (click)="submit2()" [disabled]="n2">{{v2}}</button>
+        <button class="col" (click)="submit3()" [disabled]="n3">{{v3}}</button>
+    </div>
+    <div class="row border-r">
+        <button class="col border-c" (click)="submit4()" [disabled]="n4">{{v4}}</button>
+        <button class="col border-c" (click)="submit5()" [disabled]="n5">{{v5}}</button>
+        <button class="col" (click)="submit6()" [disabled]="n6">{{v6}}</button>
+    </div>
+    <div class="row">
+        <button class="col border-c" (click)="submit7()" [disabled]="n7">{{v7}}</button>
+        <button class="col border-c" (click)="submit8()" [disabled]="n8">{{v8}}</button>
+        <button class="col" (click)="submit9()" [disabled]="n9">{{v9}}</button>
+    </div>
+    <button mat-button class="restart" (click)="restart()">Restart</button>
+    <br>
+    <p>Click here to start from beginning : <a routerLink='/' routerActiveLink="Active">Start</a></p>
+</div>

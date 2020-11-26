@@ -1,0 +1,44 @@
+button
+{
+    width: 100px;
+    height: 100px;
+    border: none;
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: #fff;
+    color: brown;
+    font-size: 30px;
+}
+
+.main
+{
+    /* margin: auto; */
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.border-r
+{
+    border-bottom: 4px solid black;
+}
+
+.border-c
+{
+    border-right: 4px solid #000;
+}
+
+.restart
+{
+    margin-top: 20px;
+    background-color: green;
+    color: #fff;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.cover
+{
+    font-size: 20px;
+}

@@ -1,0 +1,11 @@
+<div>
+    <h2>Enter the name of Player1 : </h2>
+    <input matInput type="text" [(ngModel)]="player1">
+</div>
+<div>
+    <h2>Enter the name of player 2 : </h2>
+    <input matInput type="text" [(ngModel)]="player2">
+</div>
+<div>
+    <button mat-button [disabled]="!player1 && !player2" (click)="submit()">Submit</button>
+</div>
